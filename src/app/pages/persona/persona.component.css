@@ -1,0 +1,26 @@
+*{
+  background-color: #76D3D5;
+}
+
+.tituloPersona{
+text-align: center;
+color: blue;
+margin: auto;
+border-style: dotted;
+margin: 25px 50px 75px 100px;
+}
+
+span{
+  background-color: yellow;
+  margin: 25px 25px 75px 100px;
+}
+
+p{
+  background-color: yellow;
+  margin: 25px 25px 75px 100px;
+}
+
+
+table, th, td {
+  border: 1px solid;
+}

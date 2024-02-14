@@ -1,0 +1,13 @@
+.nombre{
+  font-size: 25px;
+  color: blue;
+  font-weight: 100;
+}
+
+.tituloPersona{
+  text-align: center;
+  color: skyblue;
+  margin: auto;
+  border-style: dotted;
+  margin: 25px 50px 75px 100px;
+  }

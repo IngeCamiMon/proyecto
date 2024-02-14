@@ -1,0 +1,24 @@
+<h2 class="tituloPersona">{{titulo}}</h2>
+<span >{{edad}}</span>
+@if (ocultar == true) {
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea in placeat quia voluptas, natus nostrum doloribus repellat, quibusdam numquam tempore dolore perspiciatis saepe asperiores dignissimos consectetur cupiditate delectus? Minus, culpa.</p>
+}
+
+<hr>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>NOMBRE</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (user of users; track $index) {
+   <tr>
+    <td>{{user.id}}</td>
+    <td>{{user.name}}</td>
+   </tr>
+  }
+  </tbody>
+</table>
+<hr>
